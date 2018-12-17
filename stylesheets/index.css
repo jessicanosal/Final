@@ -1,0 +1,71 @@
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column{
+	flex:25%;
+	padding: 0 4px;
+}
+
+.column img{
+	margin-top:20px;
+	vertical-align: middle;
+	border: solid 8px #ff1a1a;
+	padding: 10px;
+}
+ .grid-image{
+ 	width:78%;
+ 	opacity:1;
+ 	transition: .5s ease;
+ 	backface-visibility: hidden;
+ }
+
+
+ #zen{
+ 	margin-top: 20%;
+ }
+
+ #njn{
+ 	margin-top: 20%;
+
+ }
+
+ #drawings{
+ 	margin-top: 25%;     
+ }
+
+
+ /*let's see if i can get that hover thing */
+.cell> .title{
+	transition:all 1s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding-top:5%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  padding: 16px 32px;
+  opacity:1;
+}
+
+
+
+.cell:hover .title{
+	opacity:1;
+}
+
+.cell{
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	display:inline-block;
+	position:relative;
+	transition:all 1s ease;
+}

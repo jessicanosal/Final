@@ -1,0 +1,47 @@
+html{
+	height: 100%;
+}
+
+
+body {
+	background: #040606;
+	height: 100%;
+	margin: 0;
+}
+
+.bioPhoto{
+	width: 431px;
+	height:369px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	border: 10px solid #FF1A1A;
+	object-fit: contain;
+	padding: 15px;
+	float:left;
+	
+}
+
+div > img{
+	width:auto;
+	height:auto;
+	max-width:100%;
+	max-height:100%;
+	float: left;
+}
+
+#me{
+	top:150px;
+	left:10px;
+}
+
+.bio{
+	color: #FBFBFA;
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	position:relative;
+	top: 150px;
+	left:10px;
+	padding:10px;
+	padding-right: 150px;
+}
